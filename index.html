@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hooked - Home</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<header>
+<h1>Hooked</h1>
+
+<nav>
+<a href="index.html">HOME</a>
+<a href="aboutus.html">ABOUT</a>
+<a href="contactus.html">CONTACT</a>
+</nav>
+
+<input type="text" placeholder="Search movies..." class="searchbar">
+</header>
+
+
+<section class="banner">
+<h2>Welcome to Hooked</h2>
+<p>Discover trending movies, trailers, and your next favourite film.</p>
+</section>
+
+
+<section class="trending">
+<h2>Trending Movies</h2>
+
+<div class="movierow">
+<img src="images/aba41514151b15a9663a08104d64f719.jpg">
+<img src="images/2284f2721fb7c37a824fe3f5770dafa3.jpg">
+<img src="images/8957ab1a620d347c3ecd001cef5a3547.jpg">
+
+
+</div>
+</section>
+
+
+<section>
+<h2>Animations</h2>
+
+<div class="swiper">
+<div class="swiper-wrapper">
+
+<div class="swiper-slide"><img src="images/elemental.jpg"></div>
+<div class="swiper-slide"><img src="images/des.jpg"></div>
+<div class="swiper-slide"><img src="images/elio.jpg"></div>
+<div class="swiper-slide"><img src="images/frozen.jpg"></div>
+<div class="swiper-slide"><img src="images/luca.jpg"></div>
+<div class="swiper-slide"><img src="images/enca.jpg"></div>
+<div class="swiper-slide"><img src="images/coco.jpg"></div>
+<div class="swiper-slide"><img src="images/soul.jpg"></div>
+<div class="swiper-slide"><img src="images/rat.jpg"></div>
+<div class="swiper-slide"><img src="images/up.jpg"></div>
+<div class="swiper-slide"><img src="images/tangled.jpg"></div>
+<div class="swiper-slide"><img src="images/spidy.jpg"></div>
+<div class="swiper-slide"><img src="images/Raya.jpg"></div>
+<div class="swiper-slide"><img src="images/Shrek.jpg"></div>
+<div class="swiper-slide"><img src="images/mulan.jpg"></div>
+<div class="swiper-slide"><img src="images/Brave.jpg"></div>
+<div class="swiper-slide"><img src="images/big.jpg"></div>
+<div class="swiper-slide"><img src="images/Rio.jpg"></div>
+<div class="swiper-slide"><img src="images/nemo.jpg"></div>
+<div class="swiper-slide"><img src="images/mega.jpg"></div>
+
+</div>
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+
+    
+
+    <footer>
+    <p>2026 Hooked Movie Website</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script>
+    const swiper = new Swiper('.swiper', {
+  slidesPerView: 5,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+   breakpoints: {
+    0: {
+      slidesPerView: 3
+    },
+    600: {
+      slidesPerView: 3
+    },
+    900: {
+      slidesPerView: 4
+    },
+    1200: {
+      slidesPerView: 5
+    }
+  }
+
+});
+    
+    </script>
+>
+</body>
+</html>
