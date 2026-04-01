@@ -16,6 +16,7 @@ padding: 20px;
 background-color: black;
 }
 
+
 nav a {
 color: white;
 margin: 0 15px;
@@ -247,6 +248,10 @@ height: 100%
   form{
     height: 60%;
   }
+
+  .ban{
+   text-align: center; 
+  }
 }
 
 @media (max-width: 600px) {
@@ -305,6 +310,9 @@ transform: scale(0.5);
     width: 60%;
     height: 60%;
   }
+  .ban{
+   text-align: center; 
+  }
 } 
   
 @media(max-width:450px){
@@ -312,6 +320,17 @@ transform: scale(0.5);
     width: 50%;
     height: 60%;
   }
+  .ban{
+   text-align: center; 
+  }
+
+.ban, h1{
+  font-size: 10px;
+}
+
+.ban, p{
+  font-size: 10px;
+}
 }
 
 
