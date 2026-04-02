@@ -33,6 +33,8 @@ font-weight: bold;
     
 } 
 
+
+
 .ban h1{
   font-size: 60px;
     opacity: 0;
@@ -95,7 +97,7 @@ transform: scale(1.1);
 
 h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 footer {
@@ -138,7 +140,9 @@ background: #1a1a1a;
  
   background-image: url(images/skry.jpg);
   background-repeat: no-repeat;
+  background-position: fixed;
   background-size:cover ;
+  overflow: hidden;
 }
 
 .com{
@@ -323,10 +327,6 @@ transform: scale(0.5);
   .ban{
    text-align: center; 
   }
-
-.ban, h1{
- 
-}
 
 .ban, p{
   font-size: 10px;
